@@ -215,7 +215,7 @@ Screenshots should be added in the screenshots/ folder after removing or blurrin
 
 Files in This Project
 
-misp-thehive-cortex-workflow/
+multi-campaign-threat-intelligence-analysis/
 
 │
 ├── README.md
