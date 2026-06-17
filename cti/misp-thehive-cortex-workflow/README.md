@@ -212,18 +212,6 @@ Screenshots
 
 Screenshots should be added in the screenshots/ folder after removing or blurring sensitive information.
 
-Suggested screenshots:
-
-* MISP event overview
-* MISP attributes / IOCs
-* MISP tags
-* MITRE ATT&CK mapping
-* Delegate Share or Publish page
-* TheHive case overview
-* TheHive observables
-* Cortex analyzer results
-
-Important: Do not upload screenshots containing passwords, API keys, private URLs, internal IPs, usernames, tokens, or any sensitive information.
 
 Files in This Project
 
@@ -237,7 +225,3 @@ misp-thehive-cortex-workflow/
 What I Learned
 
 Through this project, I practiced how CTI teams structure, enrich, and share threat intelligence. I also learned how MISP, TheHive, and Cortex can work together to support intelligence-driven investigations, from IOC collection to case management and enrichment.
-
-Disclaimer
-
-This project is for educational and portfolio purposes only. All sensitive information, credentials, API keys, and private data must be removed before publishing.
