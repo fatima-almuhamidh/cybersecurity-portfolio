@@ -1,117 +1,99 @@
-Indicators of Compromise (IOCs)
+# Indicators of Compromise (IOCs)
 
-Overview
+## Overview
 
-This document summarizes the types of indicators documented throughout the multi-campaign investigation. Sensitive values have been redacted prior to publication.
+This document summarizes the Indicators of Compromise (IOCs) documented throughout the multi-campaign threat intelligence investigation.
 
-Sensitive information has been removed or sanitized before publication.
+Sensitive values have been redacted before publication.
 
-⸻
+---
 
-Event: Lazarus / AsyncRAT
+## Campaign Summary
 
-IOC Types
+| Campaign | IOC Types |
+|----------|----------|
+| Lazarus / AsyncRAT | Hashes, IPs, Domains, URLs |
+| MOVEit Exploitation | IPs, Domains, URLs |
+| BlackCat (ALPHV) | IPs, Domains, URLs |
+| RedLine Stealer | Hashes, IPs, Domains, URLs |
 
-File Hashes
+---
 
-Type	Value
-MD5	Redacted
-SHA1	Redacted
-SHA256	Redacted
+## Lazarus / AsyncRAT
 
-Network Indicators
+### IOC Categories
 
-Type	Value
-IP Address	Redacted
-Domain	Redacted
-URL	Redacted
+| Type | Status |
+|--------|--------|
+| MD5 Hash | Identified |
+| SHA1 Hash | Identified |
+| SHA256 Hash | Identified |
+| IP Address | Identified |
+| Domain | Identified |
+| URL | Identified |
 
-Malware Information
+### Sample IOC Examples
 
-Field	Value
-Malware Family	AsyncRAT
-Threat Actor	Lazarus Group
+| Type | Value |
+|--------|--------|
+| SHA256 | Redacted |
+| Domain | Redacted |
+| IP Address | Redacted |
+| URL | Redacted |
 
-⸻
+---
 
-Event: MOVEit Exploitation
+## MOVEit Exploitation
 
-IOC Types
+### IOC Categories
 
-Network Indicators
+| Type | Status |
+|--------|--------|
+| IP Address | Identified |
+| Domain | Identified |
+| URL | Identified |
 
-Type	Value
-IP Address	Redacted
-Domain	Redacted
-URL	Redacted
+---
 
-Campaign Information
+## BlackCat (ALPHV)
 
-Field	Value
-Campaign	MOVEit Exploitation
-Attack Type	Exploitation of Public-Facing Application
+### IOC Categories
 
-⸻
+| Type | Status |
+|--------|--------|
+| IP Address | Identified |
+| Domain | Identified |
+| URL | Identified |
+| Infrastructure Indicator | Identified |
 
-Event: BlackCat Ransomware
+---
 
-IOC Types
+## RedLine Stealer
 
-Infrastructure Indicators
+### IOC Categories
 
-Type	Value
-IP Address	Redacted
-Domain	Redacted
-URL	Redacted
+| Type | Status |
+|--------|--------|
+| Hashes | Identified |
+| IP Address | Identified |
+| Domain | Identified |
+| URL | Identified |
 
-Malware Information
+---
 
-Field	Value
-Malware Family	BlackCat (ALPHV)
-Category	Ransomware
+## IOC Enrichment Sources
 
-⸻
+| Source | Purpose |
+|--------|--------|
+| VirusTotal | Reputation Analysis |
+| URLScan | URL Investigation |
+| Hybrid Analysis | Sandbox Analysis |
+| AbuseIPDB | IP Reputation |
 
-Event: RedLine Stealer
+---
 
-IOC Types
+## Notes
 
-Network Indicators
-
-Type	Value
-IP Address	Redacted
-Domain	Redacted
-URL	Redacted
-
-Malware Information
-
-Field	Value
-Malware Family	RedLine Stealer
-Category	Information Stealer
-
-⸻
-
-IOC Enrichment Sources
-
-The following sources were used to enrich observables:
-
-* VirusTotal
-* URLScan
-* Hybrid Analysis
-* AbuseIPDB
-
-Enrichment was performed to gather:
-
-* Reputation information
-* Detection results
-* Infrastructure relationships
-* Sandbox findings
-* Abuse history
-
-⸻
-
-IOC Handling Notes
-
-* Sensitive indicators were removed before publication.
-* Indicators are shared for educational and portfolio purposes only.
-* No active malicious infrastructure should be interacted with directly.
+- Actual IOC values have been redacted.
+- Indicators are included for educational and portfolio purposes only.
+- No malicious infrastructure should be interacted with directly.
