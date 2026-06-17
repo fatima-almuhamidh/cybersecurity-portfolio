@@ -1,9 +1,63 @@
-# Digital Forensics and Incident Response Projects
+# Digital Forensics and Incident Response (DFIR)
 
-This section includes DFIR labs focused on Windows forensic artifacts, memory analysis, event reconstruction, and timeline analysis.
+## Overview
+
+This section contains Digital Forensics and Incident Response projects focused on evidence analysis, incident investigation, threat detection, and forensic reporting.
+
+The projects demonstrate practical experience in identifying malicious activity, correlating evidence, documenting findings, and supporting incident response activities.
+
+---
+
+## Topics Covered
+
+- Incident Investigation
+- Threat Detection
+- IOC Identification
+- Log Analysis
+- Event Correlation
+- Detection Logic
+- Threat Hunting
+- Forensic Reporting
+- Security Monitoring
+
+---
+
+## Skills Demonstrated
+
+| Skill Area | Description |
+|------------|------------|
+| DFIR | Incident response workflow |
+| Log Analysis | Security log investigation |
+| Event Correlation | Evidence correlation |
+| IOC Analysis | Threat indicator identification |
+| Detection Engineering | Detection logic development |
+| Reporting | Investigation documentation |
+
+---
 
 ## Projects
-1. Windows Event Log Investigation
-2. Memory Forensics with Volatility
-3. Timeline Analysis
-4. Network Forensics Case Study
+
+| Project | Description |
+|----------|----------|
+| CryptoTrace DFIR Analyzer | Cryptojacking detection and forensic analysis platform |
+
+---
+
+## Project Structure
+
+```text
+dfir/
+│
+├── README.md
+│
+└── cryptotrace-dfir-analyzer/
+    ├── README.md
+    ├── workflow.md
+    └── screenshots/
+```
+
+---
+
+## Disclaimer
+
+Projects are shared for educational and portfolio purposes only.
