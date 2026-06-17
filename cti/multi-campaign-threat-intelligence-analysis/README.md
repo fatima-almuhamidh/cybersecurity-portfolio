@@ -1,6 +1,6 @@
-Multi-Campaign Threat Intelligence Analysis
+# Multi-Campaign Threat Intelligence Analysis
 
-Overview
+## Overview
 
 This project presents a comprehensive Cyber Threat Intelligence (CTI) investigation workflow conducted using MISP, TheHive, and Cortex.
 
@@ -8,162 +8,218 @@ The objective of this project was to simulate the end-to-end intelligence lifecy
 
 The project covers multiple threat campaigns and demonstrates practical CTI skills applicable to real-world intelligence operations.
 
-⸻
+---
 
-Objectives
+## Objectives
 
-The objectives of this project were to:
+The objectives of this investigation were to:
 
-* Create and manage threat intelligence events in MISP.
-* Document and classify indicators of compromise (IOCs).
-* Apply MITRE ATT&CK techniques to observed behaviors.
-* Use tagging to provide intelligence context.
-* Practice intelligence sharing through Delegate Share and Publish workflows.
-* Create and investigate cases using TheHive.
-* Add and investigate observables.
-* Enrich observables using Cortex analyzers.
-* Produce structured intelligence documentation.
+- Create and manage threat intelligence events in MISP.
+- Document and classify indicators of compromise.
+- Apply MITRE ATT&CK techniques to observed behaviors.
+- Practice intelligence sharing workflows.
+- Create and investigate cases using TheHive.
+- Add and investigate observables.
+- Enrich observables using Cortex analyzers.
+- Produce structured intelligence documentation.
 
-⸻
+---
 
-Threat Campaigns Covered
+## Threat Campaigns Covered
 
-Lazarus / AsyncRAT
+| Campaign | Category |
+|----------|----------|
+| Lazarus / AsyncRAT | Remote Access Trojan (RAT) |
+| MOVEit Exploitation | Exploitation Campaign |
+| BlackCat (ALPHV) | Ransomware |
+| RedLine Stealer | Information Stealer |
 
-Investigation involving indicators associated with Lazarus Group activity and AsyncRAT malware.
+---
 
-MOVEit Exploitation
+## Tools Used
 
-Analysis of indicators and attacker behaviors related to the MOVEit exploitation campaign.
+| Tool | Purpose |
+|--------|--------|
+| MISP | Threat intelligence event management |
+| TheHive | Case management and investigations |
+| Cortex | Observable enrichment |
+| VirusTotal | Reputation analysis |
+| URLScan | URL investigation |
+| Hybrid Analysis | Sandbox enrichment |
+| AbuseIPDB | IP reputation analysis |
+| MITRE ATT&CK | Adversary behavior mapping |
 
-BlackCat (ALPHV) Ransomware
+---
 
-Threat intelligence investigation focused on BlackCat ransomware activity and infrastructure.
+## Investigation Workflow
 
-RedLine Stealer
-
-Analysis of indicators and intelligence associated with RedLine Stealer operations.
-
-⸻
-
-Tools and Technologies
-
-Tool	Purpose
-MISP	Threat intelligence event creation and IOC management
-TheHive	Case management and investigation
-Cortex	Observable enrichment
-VirusTotal	Reputation and malware intelligence
-URLScan	URL and infrastructure analysis
-Hybrid Analysis	Sandbox enrichment
-AbuseIPDB	IP reputation checks
-MITRE ATT&CK	Adversary behavior mapping
-
-⸻
-
-Investigation Workflow
-
+```text
 Threat Scenario
-      ↓
+        ↓
 Create MISP Event
-      ↓
-Add IOCs and Attributes
-      ↓
-Apply Tags and Threat Context
-      ↓
-Map to MITRE ATT&CK
-      ↓
+        ↓
+Add IOC Attributes
+        ↓
+Apply Tags
+        ↓
+MITRE ATT&CK Mapping
+        ↓
 Delegate Share / Publish
-      ↓
+        ↓
 Create TheHive Case
-      ↓
+        ↓
 Add Observables
-      ↓
+        ↓
 Run Cortex Analyzers
-      ↓
+        ↓
 Document Findings
+```
 
-⸻
+---
 
-Intelligence Activities Performed
+## Intelligence Activities
 
-MISP
+### MISP
 
-* Created threat intelligence events.
-* Added IOC attributes.
-* Applied threat tags.
-* Classified campaigns and malware families.
-* Configured sharing settings.
-* Performed Delegate Share.
-* Published intelligence events.
+- Event Creation
+- IOC Documentation
+- Threat Classification
+- Tag Management
+- Event Publishing
+- Delegate Sharing
 
-TheHive
+### TheHive
 
-* Created investigation cases.
-* Documented investigation details.
-* Added observables.
-* Recorded investigation findings.
-* Managed case information.
+- Case Creation
+- Observable Management
+- Investigation Tracking
+- Case Documentation
+- Incident Review
 
-Cortex
+### Cortex
 
-* Enriched observables using analyzers.
-* Reviewed external intelligence sources.
-* Collected supporting evidence.
-* Validated indicators.
+- VirusTotal Analysis
+- URLScan Analysis
+- Hybrid Analysis
+- AbuseIPDB Checks
+- IOC Enrichment
 
-⸻
+---
 
-Campaign Intelligence Summary
+## Campaign Highlights
 
-Campaign	Focus Area
-Lazarus / AsyncRAT	Threat actor and RAT activity
-MOVEit Exploitation	Exploitation campaign intelligence
-BlackCat (ALPHV)	Ransomware investigation
-RedLine Stealer	Information stealer intelligence
+### Lazarus / AsyncRAT
 
-⸻
+Activities performed:
 
-Supporting Documentation
+- Created MISP threat intelligence event.
+- Added indicators of compromise.
+- Applied threat tags.
+- Mapped techniques to MITRE ATT&CK.
+- Investigated observables using TheHive.
+- Enriched indicators using Cortex analyzers.
 
-* Indicators of Compromise
-* MITRE ATT&CK Mapping
+### MOVEit Exploitation
 
-⸻
+Activities performed:
 
-Key Skills Demonstrated
+- Documented exploitation-related indicators.
+- Added infrastructure observables.
+- Performed intelligence enrichment.
+- Mapped exploitation techniques.
 
-* Cyber Threat Intelligence
-* Threat Investigation
-* IOC Documentation
-* Intelligence Enrichment
-* MISP Administration
-* TheHive Case Management
-* Cortex Analyzer Usage
-* MITRE ATT&CK Mapping
-* Intelligence Reporting
-* Analytical Documentation
+### BlackCat (ALPHV)
 
-⸻
+Activities performed:
 
-Screenshots
+- Documented ransomware-related indicators.
+- Investigated threat infrastructure.
+- Performed intelligence enrichment.
+- Applied ATT&CK mappings.
 
-Representative screenshots have been included to demonstrate the investigation workflow. All sensitive information has been removed prior to publication.
+### RedLine Stealer
 
-See the screenshots/ directory.
+Activities performed:
 
-⸻
+- Added malware indicators.
+- Investigated command-and-control artifacts.
+- Enriched indicators using Cortex.
+- Documented findings.
 
-Key Takeaways
+---
 
-Through this project, I gained practical experience in managing the complete intelligence lifecycle, from collecting indicators and documenting threat activity to enrichment and case investigation. The project strengthened my ability to communicate findings using industry-recognized frameworks and intelligence platforms.
+## Intelligence Outputs
 
-⸻
+| Output | Description |
+|----------|----------|
+| IOC Documentation | Threat indicators collected and categorized |
+| MITRE Mapping | ATT&CK techniques associated with campaigns |
+| TheHive Cases | Investigation tracking and documentation |
+| Cortex Results | IOC enrichment and reputation analysis |
+| Threat Reports | Structured intelligence reporting |
 
-Disclaimer
+---
+
+## Supporting Documentation
+
+- [Indicators of Compromise](iocs.md)
+- [MITRE ATT&CK Mapping](mitre-attack-mapping.md)
+
+---
+
+## Screenshots
+
+Representative screenshots are stored in the `screenshots/` directory.
+
+| Screenshot | Description |
+|------------|------------|
+| 01-misp-event-overview.png | MISP Event Overview |
+| 02-misp-ioc-attributes.png | IOC Attributes |
+| 03-misp-tags-and-sharing.png | Tags and Sharing Settings |
+| 04-thehive-case-overview.png | TheHive Case Overview |
+| 05-thehive-observables.png | Observable Investigation |
+| 06-cortex-virustotal-analysis.png | VirusTotal Results |
+| 07-cortex-hybrid-analysis.png | Hybrid Analysis Results |
+| 08-mitre-mapping-example.png | MITRE ATT&CK Mapping |
+
+---
+
+## Repository Structure
+
+```text
+multi-campaign-threat-intelligence-analysis/
+│
+├── README.md
+├── iocs.md
+├── mitre-attack-mapping.md
+└── screenshots/
+```
+
+---
+
+## Key Skills Demonstrated
+
+- Cyber Threat Intelligence
+- Threat Investigation
+- IOC Analysis
+- Intelligence Enrichment
+- MISP Administration
+- TheHive Case Management
+- Cortex Analyzer Usage
+- MITRE ATT&CK Mapping
+- Threat Reporting
+- Intelligence Lifecycle Operations
+
+---
+
+## Learning Outcomes
+
+Through this project, I gained hands-on experience with the intelligence lifecycle, threat investigation workflows, IOC management, ATT&CK mapping, intelligence enrichment, and structured reporting using MISP, TheHive, and Cortex.
+
+---
+
+## Disclaimer
+
+Sensitive information, credentials, API keys, and private data have been removed prior to publication.
 
 This project is shared for educational and portfolio purposes only.
-
-* No credentials, API keys, or sensitive information are included.
-* Screenshots have been sanitized.
-* Indicators have been redacted where necessary.
-* No malicious content is distributed through this repository.
