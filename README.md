@@ -60,20 +60,26 @@ My current career focus is Cyber Threat Intelligence, with supporting skills in 
 ```text
 cybersecurity-portfolio/
 │
+├── README.md
+│
 ├── cti/
-│   └── cti/multi-campaign-threat-intelligence-analysis/
+│   ├── README.md
+│   └── multi-campaign-threat-intelligence-analysis/
 │
 ├── malware-analysis/
-│   └── trojan-doina-loader-rat/
+│   ├── README.md
+│   └── trojan-doina-loader-rat-analysis/
 │
 ├── network-forensics/
-│   └── italy-ta551-pushdo-ursnif-analysis/
+│   ├── README.md
+│   └── italy-cyber-attack-investigation/
 │
 ├── dfir/
+│   ├── README.md
 │   └── cryptotrace-dfir-analyzer/
 │
-├── soc/
-│   └── detection-and-alert-analysis/
+└── soc/
+│   ├── README.md
 │
 ├── templates/
 │
