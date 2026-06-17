@@ -61,7 +61,7 @@ My current career focus is Cyber Threat Intelligence, with supporting skills in 
 cybersecurity-portfolio/
 │
 ├── cti/
-│   └── misp-thehive-cortex-workflow/
+│   └── cti/multi-campaign-threat-intelligence-analysis/
 │
 ├── malware-analysis/
 │   └── trojan-doina-loader-rat/
