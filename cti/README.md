@@ -1,44 +1,82 @@
-Cyber Threat Intelligence (CTI)
+# Cyber Threat Intelligence (CTI)
 
-This section contains Cyber Threat Intelligence projects focused on threat investigation, IOC analysis, intelligence enrichment, and analytical reporting.
+## Overview
+
+This section contains Cyber Threat Intelligence (CTI) projects focused on threat investigation, IOC analysis, intelligence enrichment, and analytical reporting.
 
 The projects demonstrate practical experience throughout the intelligence lifecycle, from collecting indicators and documenting threat activity to case investigation and enrichment.
 
-Projects
+---
 
-Multi-Campaign Threat Intelligence Analysis
+## Topics Covered
+
+- Threat Intelligence Analysis
+- IOC Collection and Documentation
+- Threat Investigation Workflows
+- MISP Event Management
+- TheHive Case Management
+- Cortex Enrichment
+- MITRE ATT&CK Mapping
+- Intelligence Sharing
+- Technical Reporting
+
+---
+
+## Projects
+
+### Multi-Campaign Threat Intelligence Analysis
 
 A comprehensive Cyber Threat Intelligence case study covering multiple threat scenarios investigated using MISP, TheHive, and Cortex.
 
 The project includes intelligence activities related to:
 
-* Lazarus / AsyncRAT
-* MOVEit Exploitation
-* BlackCat (ALPHV) Ransomware
-* RedLine Stealer
+- Lazarus / AsyncRAT
+- MOVEit Exploitation
+- BlackCat (ALPHV) Ransomware
+- RedLine Stealer
 
-Topics covered include:
+---
 
-* Threat Intelligence Operations
-* MISP Event Management
-* IOC Documentation
-* MITRE ATT&CK Mapping
-* TheHive Case Investigation
-* Cortex Enrichment
-* Intelligence Sharing Workflows
+## Skills Demonstrated
 
-→ multi-campaign-threat-intelligence-analysis
+| Skill Area | Description |
+|------------|------------|
+| Threat Intelligence | Threat analysis and reporting |
+| IOC Analysis | Indicator collection and documentation |
+| MISP | Event management and intelligence sharing |
+| TheHive | Case investigation and observables |
+| Cortex | IOC enrichment and analysis |
+| MITRE ATT&CK | Adversary behavior mapping |
+| Reporting | Intelligence reporting and documentation |
 
-Skills Demonstrated
+---
 
-* Cyber Threat Intelligence
-* IOC Analysis
-* Threat Investigation
-* MITRE ATT&CK Mapping
-* Intelligence Enrichment
-* Intelligence Reporting
-* Threat Documentation
+## Project Structure
 
-Disclaimer
+```text
+cti/
+│
+├── README.md
+│
+└── multi-campaign-threat-intelligence-analysis/
+    ├── README.md
+    ├── iocs.md
+    ├── mitre-attack-mapping.md
+    └── screenshots/
+```
 
-Projects are shared for educational and portfolio purposes only. Sensitive information, credentials, API keys, and private data have been removed before publication.
+---
+
+## Available Project
+
+| Project | Description |
+|----------|----------|
+| Multi-Campaign Threat Intelligence Analysis | Multi-scenario CTI investigation using MISP, TheHive, and Cortex |
+
+---
+
+## Disclaimer
+
+Projects are shared for educational and portfolio purposes only.
+
+Sensitive information, credentials, API keys, and private data have been removed before publication.
