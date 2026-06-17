@@ -216,10 +216,14 @@ Screenshots should be added in the screenshots/ folder after removing or blurrin
 Files in This Project
 
 misp-thehive-cortex-workflow/
+
 │
 ├── README.md
+
 ├── iocs.md
+
 ├── mitre-attack-mapping.md
+
 └── screenshots/
 
 What I Learned
